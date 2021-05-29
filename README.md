@@ -9,3 +9,6 @@ however it dos not work on my computer, and I've seen other people getting the s
 
 Currently it only lists your animations at the GUI and exports whichever one you choos as a gif,
 I plan on having .mp4 an audio support once I get to make the more complete version of it.
+
+the code is a bit unorganized but it's the best I was able to make at the moment,
+once college is off and I'm done with some personal projects it'll look a lot better.
