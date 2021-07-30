@@ -16,15 +16,6 @@ def listIterate():
         newItem = newItem.replace(':', '    ', 1)
         newList.append(newItem)
 
-
-    #print(x)
-
-# for i in list:
-#     for c in range(len(i)):
-#         if i[c] == ',':
-#             c = i.replace(',', '//')
-#             i[c] = c
-
 listIterate()
 print (list)
 
@@ -43,9 +34,6 @@ root = tk.Tk()
 for item in range(len(list)):
     thumb.append(None)
     thumb[item] = (tk.PhotoImage(file = get_thumb(Dir(list[item]))))
-
-
-# thumb[0] = tk.PhotoImage(file = get_thumb(Dir(clip)))
 
 print(get_thumb(Dir(clip)))
 print(Dir(clip))
@@ -72,7 +60,6 @@ listbox.config(yscrollcommand = scrollbar.set)
 scrollbar.config(command = listbox.yview)
 
 filepath = os.path.dirname(__file__)
-# icon = os.path.join(filepath,"")
 
 root.title('ClipNote Exporter')
 root.iconbitmap('{}\\ClipnoteExporter.ico'.format(filepath))
